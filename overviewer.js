@@ -309,7 +309,7 @@ overviewer.util = {
                 minZoom: 0});
 
         overviewer.map.attributionControl.setPrefix(
-            '<a href="https://overviewer.org">Overviewer/Leaflet</a>');
+            '<a href="http://valky.xyz" target="_blank">Valky Codes</a>');
 
         overviewer.map.on('baselayerchange', function(ev) {
             

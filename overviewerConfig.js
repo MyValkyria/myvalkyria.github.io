@@ -1,6 +1,6 @@
 var overviewerConfig = {
     "worlds": [
-        "world"
+        "Valkyria - overworld"
     ], 
     "tilesets": [
         {
@@ -11,7 +11,7 @@ var overviewerConfig = {
             ], 
             "isOverlay": false, 
             "last_rendertime": 1561087834, 
-            "name": "Overviewer Render (lighting)", 
+            "name": "Valkyria Day", 
             "poititle": "Markers", 
             "north_direction": 0, 
             "minZoom": 0, 
@@ -20,9 +20,31 @@ var overviewerConfig = {
             "base": "", 
             "imgextension": "png", 
             "defaultZoom": 1, 
-            "world": "world", 
+            "world": "Valkyria - overworld", 
             "maxZoom": 9, 
-            "path": "world-lighting", 
+            "path": "Valkyria Day", 
+            "showlocationmarker": true
+        }, 
+        {
+            "spawn": [
+                -20, 
+                144, 
+                47
+            ], 
+            "isOverlay": false, 
+            "last_rendertime": 1561087834, 
+            "name": "Valkyria Night", 
+            "poititle": "Markers", 
+            "north_direction": 0, 
+            "minZoom": 0, 
+            "bgcolor": "#1a1a1a", 
+            "zoomLevels": 9, 
+            "base": "", 
+            "imgextension": "png", 
+            "defaultZoom": 1, 
+            "world": "Valkyria - overworld", 
+            "maxZoom": 9, 
+            "path": "Valkyria Night", 
             "showlocationmarker": true
         }
     ], 
@@ -66,6 +88,6 @@ var overviewerConfig = {
             67, 
             94
         ], 
-        "cacheTag": "1561090972"
+        "cacheTag": "1561102200"
     }
 };
